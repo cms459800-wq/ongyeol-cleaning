@@ -1,11 +1,9 @@
 # 온결 청소
 
-한글 청소 정보 정적 사이트입니다. `index.html`과 `style.css`를 그대로 Vercel에 배포할 수 있습니다. 프레임워크와 환경 변수가 필요하지 않습니다.
+[ProCleaning](https://github.com/anastasiiaxfr/ProCleaning) 공개 Astro 템플릿의 구성 요소와 레이아웃을 바탕으로 제작한 한국어 청소 정보 사이트입니다. 원본의 MIT 라이선스는 `LICENSE`에 보존했습니다. 원본의 예시 고객 후기, 직원 정보, 연락처, 구조화 데이터와 이미지는 사용하지 않습니다.
 
-대표 도메인은 `https://parcelout.kr/`로 설정했습니다. `index.html`의 canonical·og:url, `sitemap.xml`, `robots.txt`에 반영되어 있습니다. 네이버 서치어드바이저 소유 확인은 실제 계정에서 발급한 파일 또는 메타 태그로 진행해야 합니다.
+## 배포
 
-이 사이트는 청소 정보 안내용이며, 확인되지 않은 사업자 정보, 연락처, 후기 또는 영업 실적을 포함하지 않습니다.
+Node.js 22.12 이상에서 `npm ci`, `npm run build`를 실행합니다. Vercel은 Astro 프레임워크를 선택하고 프로젝트의 루트 디렉터리를 저장소 최상위로 설정합니다. 빌드 결과는 `dist`에 생성됩니다. GitHub `main` 브랜치를 Production Branch로 연결합니다.
 
-## 출처
-
-디자인 방향의 참고 자료: [ProCleaning](https://github.com/anastasiiaxfr/ProCleaning) (MIT). 원본 파일의 직접 복제나 코드 재사용은 하지 않았습니다.
+대표 도메인은 `https://parcelout.kr/`입니다. Astro sitemap이 `/sitemap-index.xml`을 생성하며 `robots.txt`도 이를 가리킵니다. 네이버 서치어드바이저의 소유 확인 파일 또는 메타 태그는 실제 계정에서 발급받은 값을 사용해야 합니다.

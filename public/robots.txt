@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parcelout.kr/sitemap-index.xml

@@ -1,0 +1,4 @@
+---
+import { NAV_MENU } from '../consts';
+---
+<nav aria-label="주요 메뉴">{NAV_MENU.map(item => <a href={item.url}>{item.title}</a>)}</nav>
